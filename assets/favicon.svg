@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Studyfoldr">
+  <rect width="32" height="32" rx="7" fill="#144e54"/>
+  <path fill="#ecf4f5" d="M7 11.2h8.2c.5 0 .9.2 1.1.5l.4.6H25c.6 0 1 .4 1 1v11.2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V12.2c0-.6.4-1 1-1z"/>
+  <path fill="#144e54" d="M15.5 14.2v10.2"/>
+  <rect x="17.2" y="16.2" width="5.6" height="5.2" rx=".6" fill="none" stroke="#144e54" stroke-width="1.4"/>
+</svg>
