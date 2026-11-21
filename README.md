@@ -1,6 +1,6 @@
 # Studyfoldr website
 
-Public marketing site for **Studyfoldr** ([studyfoldr.com](https://studyfoldr.com)).
+Public marketing site for **Studyfoldr**. Live at [https://erdtheturd.github.io/studyfoldr/](https://erdtheturd.github.io/studyfoldr/).
 
 This repository is the website only. App source is not kept here.
 

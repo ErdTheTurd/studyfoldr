@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Studyfoldr">
-  <rect width="32" height="32" rx="7" fill="#144e54"/>
-  <path fill="#ecf4f5" d="M7 11.2h8.2c.5 0 .9.2 1.1.5l.4.6H25c.6 0 1 .4 1 1v11.2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V12.2c0-.6.4-1 1-1z"/>
-  <path fill="#144e54" d="M15.5 14.2v10.2"/>
-  <rect x="17.2" y="16.2" width="5.6" height="5.2" rx=".6" fill="none" stroke="#144e54" stroke-width="1.4"/>
+  <!-- Folder tab mark: manila body, teal ink tab -->
+  <rect width="32" height="32" rx="6" fill="#F3E8D4"/>
+  <path fill="#255F6B" d="M6 9.5h7.2c.55 0 1.05.28 1.35.75L15.2 11.5H26c.55 0 1 .45 1 1V24c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V10.5c0-.55.45-1 1-1z"/>
+  <path fill="#F7F1E6" d="M7.25 13.25h17.5v10.25H7.25z"/>
+  <path stroke="#255F6B" stroke-width="1.35" stroke-linecap="round" d="M16 14.5v7.5"/>
+  <path fill="none" stroke="#255F6B" stroke-width="1.2" d="M18.2 16.1h4.4v4.6h-4.4z"/>
+  <path stroke="#255F6B" stroke-width="1.1" stroke-linecap="round" d="M8.6 16.4h5.2M8.6 18.6h4.1M8.6 20.8h4.6"/>
 </svg>

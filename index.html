@@ -4,26 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Studyfoldr — offline study for iPhone</title>
-  <meta name="description" content="Studyfoldr is an offline-first study app for iPhone Duo and iPhone. Notes and flashcards side by side, face-to-face quiz mode, and an on-device library. No account, no tracking, no ads.">
-  <link rel="canonical" href="https://studyfoldr.com/">
-  <meta name="theme-color" content="#eef2f6" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0f151c" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Studyfoldr is an offline-first study app for iPhone Duo and iPhone. Notes beside flashcards, face-to-face quiz on one phone, and an on-device library. No account, no tracking, no ads.">
+  <link rel="canonical" href="https://erdtheturd.github.io/studyfoldr/">
+  <meta name="theme-color" content="#f7f1e6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1814" media="(prefers-color-scheme: dark)">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Studyfoldr">
   <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="https://studyfoldr.com/">
+  <meta property="og:url" content="https://erdtheturd.github.io/studyfoldr/">
   <meta property="og:title" content="Studyfoldr — offline study for iPhone">
-  <meta property="og:description" content="Notes and flashcards side by side, face-to-face quiz mode, and an on-device library. No account, no tracking, no ads.">
-  <meta property="og:image" content="https://studyfoldr.com/assets/icon-512.png">
+  <meta property="og:description" content="Notes beside flashcards, face-to-face quiz on one phone, and an on-device library. No account, no tracking, no ads.">
+  <meta property="og:image" content="https://erdtheturd.github.io/studyfoldr/assets/icon-512.png">
   <meta property="og:image:width" content="512">
   <meta property="og:image:height" content="512">
-  <meta property="og:image:alt" content="Studyfoldr app icon">
+  <meta property="og:image:alt" content="Studyfoldr folder mark">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Studyfoldr — offline study for iPhone">
-  <meta name="twitter:description" content="Notes and flashcards side by side, face-to-face quiz mode, and an on-device library. No account, no tracking, no ads.">
-  <meta name="twitter:image" content="https://studyfoldr.com/assets/icon-512.png">
+  <meta name="twitter:description" content="Notes beside flashcards, face-to-face quiz on one phone, and an on-device library. No account, no tracking, no ads.">
+  <meta name="twitter:image" content="https://erdtheturd.github.io/studyfoldr/assets/icon-512.png">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
@@ -40,142 +40,144 @@
         <span>Studyfoldr</span>
       </a>
       <ul class="nav-links">
-        <li><a href="#features">Features</a></li>
+        <li><a href="#what">What it does</a></li>
         <li><a href="privacy.html">Privacy</a></li>
         <li><a href="support.html">Support</a></li>
       </ul>
     </nav>
   </header>
 
+  <div class="folder-tabs" aria-hidden="true">
+    <span data-active>Library</span>
+    <span>Study Split</span>
+    <span>Face-to-Face</span>
+  </div>
+
   <main id="main">
     <section class="hero">
       <div class="wrap hero-inner">
         <div class="hero-copy">
           <p class="wordmark">Studyfoldr</p>
-          <h1>Study offline. Notes and cards, side by side.</h1>
-          <p class="lede">An offline-first study app for iPhone Duo and iPhone. Your decks, notes, and scores stay on the device — no account, no tracking, no ads, and no network required for the app’s features.</p>
+          <h1>Notes beside flashcards. Two people, one phone.</h1>
+          <p class="lede">An offline-first study app for iPhone Duo and iPhone. Decks, notes, and scores stay on the device — no account, no tracking, no ads, and no network required for the app’s features.</p>
           <p class="device-note"><strong>Works on</strong> iPhone Duo and iPhone</p>
           <div class="hero-links">
+            <a href="#shots">See the app</a>
             <a href="privacy.html">Privacy</a>
-            <a href="support.html">Support</a>
             <a href="mailto:support@studyfoldr.com">support@studyfoldr.com</a>
           </div>
         </div>
 
-        <figure class="device" aria-label="Illustration of Study Split: notes beside flashcards">
-          <div class="device-chrome">
-            <strong>Study Split</strong>
-            <span>On device</span>
+        <figure class="shot duo hero-shot">
+          <div class="shot-frame">
+            <img
+              src="assets/shots/duo-library.jpg"
+              width="1200"
+              height="1746"
+              alt="Studyfoldr Library on iPhone Duo: Sample Deck · Solar System with 7 cards and 1 notes, vertical Duo tab rail on the right."
+              decoding="async"
+              fetchpriority="high">
           </div>
-          <div class="split-stage">
-            <div class="pane">
-              <p class="pane-label">Notes</p>
-              <div class="line mid" aria-hidden="true"></div>
-              <div class="line" aria-hidden="true"></div>
-              <div class="line short" aria-hidden="true"></div>
-              <div class="line mid" aria-hidden="true"></div>
-              <div class="line short" aria-hidden="true"></div>
-            </div>
-            <div class="pane">
-              <p class="pane-label">Flashcards</p>
-              <div class="card-stack">
-                <div class="flash">Mitochondria<small>Powerhouse of the cell</small></div>
-                <div class="flash">Photosynthesis<small>Light → chemical energy</small></div>
-              </div>
-            </div>
-          </div>
+          <figcaption>Library on iPhone Duo — Sample Deck · Solar System. Real product screenshot.</figcaption>
         </figure>
       </div>
     </section>
 
-    <div class="wrap features" id="features">
-      <article class="feature">
-        <div class="feature-copy">
-          <h2>Study Split</h2>
-          <p>Keep your notes open next to your flashcards. Read on one side, quiz yourself on the other — without hopping between screens.</p>
-        </div>
-        <div class="feature-media" aria-hidden="true">
-          <div class="device">
-            <div class="device-chrome">
-              <strong>Split view</strong>
-              <span>Notes · Cards</span>
+    <section class="wrap shots" id="shots" aria-labelledby="shots-heading">
+      <div class="shots-head">
+        <h2 id="shots-heading">In the folder</h2>
+        <p>Simulator captures of the running app. Honest shots — not mockups.</p>
+      </div>
+      <ul class="shot-grid">
+        <li>
+          <figure class="shot duo">
+            <div class="shot-frame">
+              <img
+                src="assets/shots/duo-split.jpg"
+                width="1200"
+                height="1746"
+                alt="Studyfoldr Study Split on iPhone Duo with the Notes pane open on a Solar System overview note; Notes and Cards segmented control; Duo side rail."
+                loading="lazy"
+                decoding="async">
             </div>
-            <div class="split-stage">
-              <div class="pane">
-                <p class="pane-label">Notes</p>
-                <div class="line"></div>
-                <div class="line mid"></div>
-                <div class="line short"></div>
-              </div>
-              <div class="pane">
-                <p class="pane-label">Cards</p>
-                <div class="flash">Front of card<small>Tap to flip</small></div>
-              </div>
+            <figcaption>Study Split on iPhone Duo — Notes pane open on the Solar System overview. The app keeps notes beside flashcards via Notes/Cards panes (wide layouts when the display allows).</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="shot duo">
+            <div class="shot-frame">
+              <img
+                src="assets/shots/duo-facetoface.jpg"
+                width="1200"
+                height="1746"
+                alt="Studyfoldr Face-to-Face on iPhone Duo for Student A, card 1 of 7, prompt asking what the largest planet is, score 0, Flip control on the Duo rail."
+                loading="lazy"
+                decoding="async">
             </div>
-          </div>
-        </div>
-      </article>
+            <figcaption>Face-to-Face on iPhone Duo — Student A, card 1/7, score counter and Flip control visible.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="shot phone">
+            <div class="shot-frame">
+              <img
+                src="assets/shots/iphone-library.jpg"
+                width="1200"
+                height="2609"
+                alt="Studyfoldr Library on a regular iPhone showing Sample Deck · Solar System with bottom tab bar for Library, Study Split, and Face-to-Face."
+                loading="lazy"
+                decoding="async">
+            </div>
+            <figcaption>Library on iPhone — same decks, bottom tab bar.</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="shot phone">
+            <div class="shot-frame">
+              <img
+                src="assets/shots/iphone-split.jpg"
+                width="1200"
+                height="2609"
+                alt="Studyfoldr Study Split on a regular iPhone with the Notes pane open on Quick overview; bottom tab bar with Study Split selected."
+                loading="lazy"
+                decoding="async">
+            </div>
+            <figcaption>Study Split on iPhone — Notes pane; switch to Cards when you want to quiz.</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
 
-      <article class="feature reverse">
-        <div class="feature-copy">
-          <h2>Face-to-Face Quiz</h2>
-          <p>Two people quiz each other across two panes. Optional flip and rotation for opposing seats, plus a simple score counter — useful on iPhone Duo and still handy on a regular iPhone.</p>
-        </div>
-        <div class="feature-media" aria-hidden="true">
-          <div class="face-stage">
-            <div class="face-pane">
-              <p class="face-q">Define osmosis.</p>
-              <p class="score">You <b>3</b></p>
-            </div>
-            <div class="face-pane flip">
-              <p class="face-q">Water across a membrane.</p>
-              <p class="score">You <b>2</b></p>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="feature">
-        <div class="feature-copy">
-          <h2>On-device library</h2>
-          <p>Decks, cards, and notes live in a library on your phone. Nothing is uploaded to a cloud account — your study materials stay with you.</p>
-        </div>
-        <div class="feature-media" aria-hidden="true">
-          <div class="library-grid">
-            <div class="lib-row">
-              <span class="lib-icon" aria-hidden="true">D</span>
-              <div>
-                <strong>Biology Midterm</strong>
-                <span>Deck · 48 cards</span>
-              </div>
-              <span class="lib-meta">On device</span>
-            </div>
-            <div class="lib-row">
-              <span class="lib-icon" aria-hidden="true">N</span>
-              <div>
-                <strong>Chapter 4 outline</strong>
-                <span>Notes</span>
-              </div>
-              <span class="lib-meta">On device</span>
-            </div>
-            <div class="lib-row">
-              <span class="lib-icon" aria-hidden="true">D</span>
-              <div>
-                <strong>Spanish verbs</strong>
-                <span>Deck · 120 cards</span>
-              </div>
-              <span class="lib-meta">On device</span>
-            </div>
-          </div>
-        </div>
-      </article>
-    </div>
+    <section class="wrap features" id="what" aria-labelledby="what-heading">
+      <div class="features-head">
+        <h2 id="what-heading">What it does</h2>
+        <p>The short list. Nothing padded.</p>
+      </div>
+      <ol class="feature-list">
+        <li>
+          <h3>Study Split</h3>
+          <p>Keep notes beside flashcards. Read on one side, quiz on the other — Notes and Cards panes in one study view.</p>
+        </li>
+        <li>
+          <h3>Face-to-Face Quiz</h3>
+          <p>Two people quiz each other on one phone. Optional flip so the far pane reads upright from the other side, plus a simple score counter.</p>
+        </li>
+        <li>
+          <h3>On-device library</h3>
+          <p>Decks, cards, and notes live in a library on your phone. Browse and study without signing in.</p>
+        </li>
+        <li>
+          <h3>Offline, no account</h3>
+          <p>No cloud account, no tracking, no analytics, no ads. The app’s features do not need a network.</p>
+        </li>
+      </ol>
+    </section>
 
     <div class="wrap">
-      <section class="privacy-band" aria-labelledby="privacy-heading">
-        <h2 id="privacy-heading">Private by design</h2>
-        <p>No account required. No tracking, analytics, or ads. The app’s features work without a network connection. Read the full policy on the <a href="privacy.html">Privacy</a> page, or reach <a href="mailto:support@studyfoldr.com">support@studyfoldr.com</a>.</p>
-      </section>
+      <aside class="note-band" aria-labelledby="private-heading">
+        <h2 id="private-heading">Private by design</h2>
+        <p>Study materials stay on the device. Read the <a href="privacy.html">Privacy Policy</a>, or email <a href="mailto:support@studyfoldr.com">support@studyfoldr.com</a>.</p>
+      </aside>
     </div>
   </main>
 
